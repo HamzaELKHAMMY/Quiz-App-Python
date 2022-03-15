@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.quizpythonofppt" >
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.exx.quizpythonofppt" >
 
+
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
+        android:name="com.exx.quizpythonofppt.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.QUIZPYTHONOFPPT" >
+        android:theme="@style/Theme.QUIZPYTHONOFPPT"
+        tools:ignore="MissingClass">
         <activity
-            android:name=".MainActivity2"
+            android:name="com.exx.quizpythonofppt.MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity5"
+            android:name="com.exx.quizpythonofppt.MainActivity5"
             android:exported="false" />
         <activity
-            android:name=".MainActivity4"
+            android:name="com.exx.quizpythonofppt.MainActivity4"
             android:exported="false" />
         <activity
-            android:name=".MainActivity3"
+            android:name="com.exx.quizpythonofppt.MainActivity3"
             android:exported="false" />
         <activity
-            android:name=".QuezActivity"
+            android:name="com.exx.quizpythonofppt.QuezActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.exx.quizpythonofppt.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,6 +42,8 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-4923676142882713~7151248666" />
+
+
     </application>
 
 </manifest>

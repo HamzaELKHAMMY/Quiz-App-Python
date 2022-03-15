@@ -1,4 +1,4 @@
-package com.ex.quizpythonofppt;
+package com.exx.quizpythonofppt;
 
 import static androidx.lifecycle.Lifecycle.Event.ON_START;
 

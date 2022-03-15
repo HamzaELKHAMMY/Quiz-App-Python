@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/finn"
-    tools:context=".MainActivity5">
+    tools:context="com.exx.quizpythonofppt.MainActivity5">
 
     <RelativeLayout
         android:layout_width="418dp"
@@ -112,21 +112,7 @@
             android:textSize="20sp"
             android:textStyle="italic" />
 
-        <com.google.android.gms.ads.AdView
-            android:id="@+id/adView"
-            android:layout_width="402dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginTop="0dp"
-            android:layout_marginEnd="0dp"
-            android:layout_marginBottom="10dp"
-            app:adSize="SMART_BANNER"
-            app:adUnitId="ca-app-pub-4923676142882713/7651416893">
 
-        </com.google.android.gms.ads.AdView>
 
 
     </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.ex.quizpythonofppt;
+package com.exx.quizpythonofppt;
 
 public class QuesM1 {
     private String question , option1 , option2 , option3 , option4 ;

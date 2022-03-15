@@ -6,7 +6,7 @@
         android:layout_height="match_parent"
         tools:ignore="ContentDescription"
         android:background="@drawable/sanstt"
-        tools:context=".MainActivity2">
+        >
 
 
     <RelativeLayout
@@ -38,6 +38,7 @@
             android:layout_marginTop="126dp"
             android:layout_marginEnd="18dp"
             android:layout_marginBottom="52dp"
+            android:background="@drawable/db_btn"
             android:text="@string/fore"
             android:textSize="35sp"
             android:textStyle="bold" />
@@ -54,6 +55,7 @@
             android:layout_marginTop="12dp"
             android:layout_marginEnd="18dp"
             android:layout_marginBottom="166dp"
+            android:background="@drawable/db_btn"
             android:text="@string/two"
             android:textSize="35sp"
             android:textStyle="bold" />
@@ -69,6 +71,7 @@
             android:layout_marginStart="18dp"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="424dp"
+            android:background="@drawable/db_btn"
             android:layout_marginBottom="167dp"
             android:text="@string/one"
             android:textSize="35sp"
@@ -87,6 +90,7 @@
             android:layout_marginEnd="424dp"
             android:layout_marginBottom="52dp"
             android:text="@string/truee"
+            android:background="@drawable/db_btn"
             android:textSize="35sp"
             android:textStyle="bold" />
 
@@ -136,8 +140,9 @@
         android:layout_marginTop="252dp"
         android:layout_marginEnd="289dp"
         android:layout_marginBottom="11dp"
-        android:background="@color/white"
+        android:textSize="20sp"
         android:text="@string/rt"
+        android:background="@drawable/back"
         android:textColor="#DD2C00"
         tools:ignore="MissingConstraints" />
 

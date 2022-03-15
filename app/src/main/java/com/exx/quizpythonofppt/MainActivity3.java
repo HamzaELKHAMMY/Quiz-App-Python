@@ -1,4 +1,4 @@
-package com.ex.quizpythonofppt;
+package com.exx.quizpythonofppt;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,7 +13,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.ex.quizpythonofppt.R;
+import com.exx.quizpythonofppt.R;
 
 import java.util.ArrayList;
 import java.util.List;

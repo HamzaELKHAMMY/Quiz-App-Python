@@ -1,4 +1,4 @@
-package com.ex.quizpythonofppt;
+package com.exx.quizpythonofppt;
 
 import android.app.Application;
 import com.google.android.gms.ads.MobileAds;
